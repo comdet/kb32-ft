@@ -1,4 +1,4 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\build\ff-ff-ff-ff-ff-ff\KBProTime.o: \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ff-ff-ff-ff-ff-ff\KBProTime.o: \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\KBProTime.cpp \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\KBProTime.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Arduino.h \
@@ -128,4 +128,4 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\build\ff-f
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\include/pins_arduino.h
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h

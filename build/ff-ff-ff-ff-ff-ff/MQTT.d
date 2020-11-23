@@ -1,4 +1,4 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\build\ff-ff-ff-ff-ff-ff\MQTT.o: \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ff-ff-ff-ff-ff-ff\MQTT.o: \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\MQTT.cpp \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\MQTT.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
