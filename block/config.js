@@ -1,10 +1,15 @@
+const dirIcon = Vue.prototype.$global.board.board_info.dir;
 module.exports = {
   blocks: [ // use "blocks : [ " in normally situation but this need to override base block from esp-idf platforms
     {
-      name: "Display",
+      name: "LED Matrix",
       color: "230",
-      icon: "/static/icons/icons8_picture_96px_1.png",
+      //icon: "/static/icons/icons8_picture_96px_1.png",
+      icon: `file:///${dirIcon}/static/icons/ledmatrix.png`,
       blocks: [
+        {
+          xml: `<sep gap="32"></sep><label text="LED Matrix 16x8" web-class="headline"></label>`
+        },
         "display_led16x8",
         "display_led16x8_clr",
         {
@@ -150,6 +155,170 @@ module.exports = {
       ]
     },
     {
+      name: "LCD Display",
+      color: "230",
+      icon: `file:///${dirIcon}/static/icons/graphictablet.png`,
+      blocks: [
+        {
+          xml: `<sep gap="32"></sep><label text="LCD TFT 0.96 inch 160x80 Pixels" web-class="headline"></label>`
+        },
+        {
+          xml: `<block type="variables_set">
+                                     <field name="VAR">img1</field>
+                                     <value name="VALUE">
+                                         <block type="i2c128x64_create_image" inline="false"></block>
+                                     </value>
+                                 </block>`
+        },
+        {
+          xml:
+            `<block type="i2c128x64_display_image">
+                             <value name="img">
+                                 <block type="variables_get">
+                                     <field name="VAR">img1</field>
+                                 </block>
+                             </value>
+                             <value name="x">
+                                 <shadow type="math_number">
+                                     <field name="NUM">0</field>
+                                 </shadow>
+                             </value>
+                             <value name="x">
+                                 <shadow type="math_number">
+                                     <field name="NUM">0</field>
+                                 </shadow>
+                             </value>
+                             <value name="y">
+                                 <shadow type="math_number">
+                                     <field name="NUM">0</field>
+                                 </shadow>
+                             </value>
+                             <value name="width">
+                                 <shadow type="math_number">
+                                     <field name="NUM">10</field>
+                                 </shadow>
+                             </value>
+                             <value name="height">
+                                 <shadow type="math_number">
+                                     <field name="NUM">10</field>
+                                 </shadow>
+                             </value>
+                         </block>`
+        },
+        "tft_display_setRotation",
+        "tft_display_fillScreen",
+        {
+          xml:
+            `<block type="tft_display_print">
+                            <value name="TEXT">
+                                <shadow type="basic_string">
+                                    <field name="VALUE">Hello world!</field>
+                                </shadow>
+                            </value>
+                            <value name="X">
+                                <shadow type="math_number">
+                                    <field name="NUM">0</field>
+                                </shadow>
+                            </value>
+                            <value name="Y">
+                                <shadow type="math_number">
+                                    <field name="NUM">0</field>
+                                </shadow>
+                            </value>
+                        </block>`
+        },
+        {
+          xml: `<sep gap="32"></sep><label text="Shape" web-class="headline"></label>`
+        },
+        {
+          xml:
+            `<block type="tft_display_draw_line">
+                            <value name="x0">
+                                <shadow type="math_number">
+                                    <field name="NUM">10</field>
+                                </shadow>
+                            </value>
+                            <value name="y0">
+                                <shadow type="math_number">
+                                    <field name="NUM">10</field>
+                                </shadow>
+                            </value>
+                            <value name="x1">
+                                <shadow type="math_number">
+                                    <field name="NUM">100</field>
+                                </shadow>
+                            </value>
+                            <value name="y1">
+                                <shadow type="math_number">
+                                    <field name="NUM">50</field>
+                                </shadow>
+                            </value>
+                        </block>`
+        },
+        {
+          xml:
+            `<block type="tft_display_draw_rect">
+                            <value name="x">
+                                <shadow type="math_number">
+                                    <field name="NUM">10</field>
+                                </shadow>
+                            </value>
+                            <value name="y">
+                                <shadow type="math_number">
+                                    <field name="NUM">10</field>
+                                </shadow>
+                            </value>
+                            <value name="width">
+                                <shadow type="math_number">
+                                    <field name="NUM">50</field>
+                                </shadow>
+                            </value>
+                            <value name="height">
+                                <shadow type="math_number">
+                                    <field name="NUM">30</field>
+                                </shadow>
+                            </value>
+                        </block>`
+        },
+        {
+          xml:
+            `<block type="tft_display_draw_circle">
+                            <value name="x">
+                                <shadow type="math_number">
+                                    <field name="NUM">64</field>
+                                </shadow>
+                            </value>
+                            <value name="y">
+                                <shadow type="math_number">
+                                    <field name="NUM">32</field>
+                                </shadow>
+                            </value>
+                            <value name="r">
+                                <shadow type="math_number">
+                                    <field name="NUM">20</field>
+                                </shadow>
+                            </value>
+                        </block>`
+        },
+        {
+          xml:
+            `<block type="i2c128x64_display_draw_pixel">
+                              <value name="x">
+                                  <shadow type="math_number">
+                                      <field name="NUM">0</field>
+                                  </shadow>
+                              </value>
+                              <value name="y">
+                                  <shadow type="math_number">
+                                      <field name="NUM">0</field>
+                                  </shadow>
+                              </value>
+                          </block>`
+        },
+        "basic_string"
+      ]
+    },
+    {
       name: "Sensor",
       color: "58",
       icon: "/static/icons/icons8_thermometer_96px.png",
@@ -163,7 +332,7 @@ module.exports = {
     {
       name: "Servo",
       color: "58",
-      icon: "https://cdn0.iconfinder.com/data/icons/electronic-components/567/Servo-01-512.png",
+      icon: `file:///${dirIcon}/static/icons/servo.png`,
       blocks: [
         "esp32_servo_attach",
         "esp32_servo_detach",
@@ -231,7 +400,7 @@ module.exports = {
                         </value>
                     </block>`
         },
-        
+
         {
           xml:
             `<block type="time_delay_microsec">

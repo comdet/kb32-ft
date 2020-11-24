@@ -14,7 +14,9 @@
 #include "KB_LM73.h"
 #include "KB_ht16k33.h"
 #include "MCP7941x.h"
+#include <TFT_eSPI.h>
 
+TFT_eSPI tft = TFT_eSPI();
 MCP7941x rtc = MCP7941x();
 
 KB_board board = KB_board();

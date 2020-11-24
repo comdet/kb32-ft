@@ -1,6 +1,6 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\build\ac-67-b2-00-8c-2c\KB_initBoard.o: \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\include\KB_initBoard.cpp \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\include\KB_initBoard.h \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\KB_initBoard.o: \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\KB_initBoard.cpp \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\KB_initBoard.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Arduino.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
@@ -128,8 +128,8 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\build\ac-6
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\include/pins_arduino.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/pins_arduino.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/Wire.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/esp32-hal.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/queue.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kidbright-arduino\ 1.5\include\pins_arduino.h
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\pins_arduino.h
