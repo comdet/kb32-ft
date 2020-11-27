@@ -1,4 +1,4 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\PubSubClient.o: \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ac-67-b2-00-8c-2c\PubSubClient.o: \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\PubSubClient.cpp \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\PubSubClient.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/pgmspace.h \
@@ -110,6 +110,6 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\P
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/pins_arduino.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\include\MQTT.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Client.h

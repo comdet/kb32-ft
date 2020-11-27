@@ -1,5 +1,5 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\main.o: \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\main.cpp \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ac-67-b2-00-8c-2c\main.o: \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ac-67-b2-00-8c-2c\main.cpp \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/FreeRTOS.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/sys/reent.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/_ansi.h \
@@ -128,4 +128,4 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\m
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/pins_arduino.h
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h

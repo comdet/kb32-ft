@@ -1,6 +1,6 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\Servo.o: \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\Servo.cpp \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Servo.h \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ac-67-b2-00-8c-2c\Servo.o: \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include\Servo.cpp \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Servo.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Arduino.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
@@ -128,4 +128,4 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\S
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/pins_arduino.h
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h

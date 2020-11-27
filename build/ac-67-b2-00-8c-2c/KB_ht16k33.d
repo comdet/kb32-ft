@@ -1,6 +1,6 @@
-C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\KB_ht16k33.o: \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\KB_ht16k33.cpp \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\KB_ht16k33.h \
+C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\build\ac-67-b2-00-8c-2c\KB_ht16k33.o: \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include\KB_ht16k33.cpp \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include\KB_ht16k33.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Arduino.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/stdint.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\newlib/machine/_default_types.h \
@@ -128,12 +128,12 @@ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\build\ac-67-b2-00-8c-2c\K
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/IPAddress.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/HardwareSerial.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Esp.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/pins_arduino.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/pins_arduino.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\libraries_include/Wire.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/esp32-hal.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\sdk\include\inc/freertos/queue.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/Adafruit_GFX.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/Adafruit_GFX.h \
  C:\Users\sarawoot_ch56\Documents\KB-IDE\platforms\arduino-esp32\lib\include/Print.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include/gfxfont.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\Adafruit_LEDBackpack.h \
- C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\kb32-ft\include\Adafruit_GFX.h
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include/gfxfont.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include\Adafruit_LEDBackpack.h \
+ C:\Users\sarawoot_ch56\Documents\KB-IDE\boards\KB32-FT\include\Adafruit_GFX.h

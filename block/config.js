@@ -8,6 +8,10 @@ module.exports = {
       icon: `file:///${dirIcon}/static/icons/ledmatrix.png`,
       blocks: [
         {
+          xml: `<sep gap="32"></sep><label text="LCD TFT Select Mode" web-class="headline"></label>`
+        },
+        "tft_display_selectMode0",
+        {
           xml: `<sep gap="32"></sep><label text="LED Matrix 16x8" web-class="headline"></label>`
         },
         "display_led16x8",
@@ -159,6 +163,10 @@ module.exports = {
       color: "230",
       icon: `file:///${dirIcon}/static/icons/graphictablet.png`,
       blocks: [
+        {
+          xml: `<sep gap="32"></sep><label text="LCD TFT Select Mode" web-class="headline"></label>`
+        },
+        "tft_display_selectMode1",
         {
           xml: `<sep gap="32"></sep><label text="LCD TFT 0.96 inch 160x80 Pixels" web-class="headline"></label>`
         },
@@ -323,10 +331,16 @@ module.exports = {
       color: "58",
       icon: "/static/icons/icons8_thermometer_96px.png",
       blocks: [
+        {
+          xml: `<sep gap="32"></sep><label text="Kidbright32 Sensor" web-class="headline"></label>`
+        },
         "sensor_ldr",
         "sensor_lm73",
         "sensor_switch1",
-        "sensor_switch2"
+        "sensor_switch2",
+        {
+          xml: `<sep gap="32"></sep><label text="KB32-FT Sensor" web-class="headline"></label>`
+        },
       ]
     },
     {
